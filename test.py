@@ -1,1 +1,6 @@
-print('hello world')
+name = "   forellko forellko   "
+
+name = name.title()
+name = name.strip()
+
+print(name)
