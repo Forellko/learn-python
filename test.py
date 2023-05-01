@@ -1,11 +1,8 @@
-def hello(to, cb):
+def hello(to="world"):
   print("hello", to)
-  cb()
   return 
 
-def callback():
-  print('in callback')
 
 name = input("What is your name? ")
 
-hello(name, callback)
+hello()
