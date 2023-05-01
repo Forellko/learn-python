@@ -1,8 +1,6 @@
-x = input("x: ")
-y = input("y: ")
+def hello(to):
+  print("hello", to)
 
-z = float(x) / float(y)
+name = input("What is your name? ")
 
-z = round(z, 5)
-
-print(z)
+hello(name)
