@@ -1,5 +1,3 @@
-name = input("What is your name? ")
-
-name = name.title().strip()
+name = input("What is your name? ").title().strip()
 
 print(f"Hello, {name}" )
