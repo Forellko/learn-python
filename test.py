@@ -1,8 +1,15 @@
-def hello(to="world"):
-  print("hello", to)
-  return 
+x = input("What is x: ")
+y = input("What is y: ")
 
+x = int(x)
+y = int(y)
 
-name = input("What is your name? ")
+if x < y:
+  print('x is less than y')
 
-hello()
+if x > y:
+  print('x is greater than y')
+
+if x == y:
+  print('x is equals to y')
+
