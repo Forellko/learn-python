@@ -1,5 +1,3 @@
-import statistics
+import sys
 
-mid = statistics.mean([1,2,3,4])
-
-print(mid)
+print(sys.argv)
