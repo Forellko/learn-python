@@ -1,6 +1,3 @@
-name = input("How many times")
+list = ["apple", "orange", "melon"]
 
-name = int(name)
-
-for i in range(name):
-  print(i)
+print(list.count("orange"))
