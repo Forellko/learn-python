@@ -1,5 +1,5 @@
 import random
 
-num = random.choice(["heads", "tails"])
+num = random.randint(1,10)
 
 print(num)
