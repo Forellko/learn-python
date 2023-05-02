@@ -1,4 +1,7 @@
-list = ["apple", "orange", "melon", "apple"]
-string = "hello"
+obj = {
+  "hello": 5,
+  "world": 2
+}
 
-print(len(list))
+for el in obj:
+  print(el, obj[el], sep=", ")
