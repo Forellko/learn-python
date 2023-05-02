@@ -1,5 +1,7 @@
 import random
 
-num = random.randint(1,10)
+arr = [1,2,3,4,5]
 
-print(num)
+random.shuffle(arr)
+
+print(arr)
