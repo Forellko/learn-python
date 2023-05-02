@@ -1,10 +1,6 @@
-x = input("What is x: ")
-y = input("What is y: ")
+name = input("How many times")
 
-x = int(x)
-y = int(y)
+name = int(name)
 
-if x < y or x > y:
-  print('x is not equal to y')
-else:
-  print('x is equal to y')
+for i in range(name):
+  print(i)
