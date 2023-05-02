@@ -1,10 +1,5 @@
-import random
+import statistics
 
-arr = [1,2,3,4,5]
+mid = statistics.mean([1,2,3,4])
 
-arr2 = arr.copy()
-
-random.shuffle(arr2)
-
-print(arr)
-print(arr2)
+print(mid)
