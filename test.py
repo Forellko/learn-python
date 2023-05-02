@@ -1,5 +1,5 @@
+import random
 
-try:
-  x = int(input("x is: "))
-except ValueError:
-  print('error')
+num = random.choice(["heads", "tails"])
+
+print(num)
