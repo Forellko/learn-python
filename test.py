@@ -1,7 +1,3 @@
-obj = {
-  "hello": 5,
-  "world": 2
-}
+i = "hello"
 
-for el in obj:
-  print(el, obj[el], sep=", ")
+print(i, end="")
