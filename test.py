@@ -1,3 +1,5 @@
-i = "hello"
 
-print(i, end="")
+try:
+  x = int(input("x is: "))
+except ValueError:
+  print('error')
