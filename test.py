@@ -1,3 +1,4 @@
-list = ["apple", "orange", "melon"]
+list = ["apple", "orange", "melon", "apple"]
+string = "hello"
 
-print(list.count("orange"))
+print(len(list))
