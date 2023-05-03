@@ -1,7 +1,6 @@
-import cowsay
+import sys
+import requests
 
+response = requests.get('https://ya.ru/')
 
-x = [1, 2, 3, 4, 5]
-x = x[1:3]
-
-print(cowsay.dragon('hello'))
+print(response.content)
