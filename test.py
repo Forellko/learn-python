@@ -1,6 +1,7 @@
 import sys
+import json
 import requests
 
-response = requests.get('https://ya.ru/')
+response = requests.get('https://jsonplaceholder.typicode.com/todos/1')
 
-print(response.content)
+print(json.dumps(response.json(), indent=2))
