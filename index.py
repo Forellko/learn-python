@@ -1,5 +1,6 @@
 file = open('name.txt', 'r')
 
-text = file.read()
+text = file.readlines()
 
-print(text)
+for t in text:
+    print(t.rstrip())
