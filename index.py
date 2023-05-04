@@ -1,6 +1,11 @@
-file = open('name.txt', 'r')
+x = [1, 2, 3]
+y = {
+    "1": 1,
+    "2": 2,
+    '3': 3
+}
 
-text = file.readlines()
 
-for t in text:
-    print(t.rstrip())
+a, b, c = y
+
+print(a, b, c)
