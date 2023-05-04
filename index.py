@@ -1,5 +1,5 @@
-name = input("What is your name: ")
+file = open('name.txt', 'r')
 
-file = open('name.txt', 'w')
+text = file.read()
 
-file.write(name)
+print(text)
