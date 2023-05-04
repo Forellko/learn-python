@@ -1,11 +1,9 @@
-x = [1, 2, 3]
-y = {
-    "1": 1,
-    "2": 2,
-    '3': 3
-}
+students = [{"name": "Vova", "age": "25", "weight": 110},
+            {"name": "Gregory", "age": "30", "weight": 70}]
 
 
-a, b, c = y
+def get_name(student):
+    return student["weight"]
 
-print(a, b, c)
+
+print(sorted(students, key=get_name))
