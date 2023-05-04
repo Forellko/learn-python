@@ -1,5 +1,6 @@
 import csv
 
-with open("name.csv", "a") as file:
-    dictWriter = csv.DictWriter(file, fieldnames=['firstname', 'secondname'])
-    dictWriter.writerow({"firstname": "1", "secondname": "2"})
+with open("name.csv") as file:
+    reader = csv.reader(file)
+    for read in reader:
+        print(read)
