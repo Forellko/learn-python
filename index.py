@@ -1,9 +1,8 @@
-students = [{"name": "Vova", "age": "25", "weight": 110},
-            {"name": "Gregory", "age": "30", "weight": 70}]
+import csv
 
+file = open("name.csv")
 
-def get_name(student):
-    return student["weight"]
+reader = csv.reader(file)
 
-
-print(sorted(students, key=get_name))
+for row in reader:
+    print(row[0], '-', row[1])
