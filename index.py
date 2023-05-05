@@ -1,8 +1,8 @@
 import re
 
-email = 'dragonforce97q@gmail.com'
+email = 'aaaaab'
 
-isValid = re.search(r"[a-z]+@[a-z]+\.[a-z]+", email)
+isValid = re.search(r"[^a]+[b]", email)
 
 if isValid:
     print(1)
