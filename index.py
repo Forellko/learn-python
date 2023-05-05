@@ -1,5 +1,8 @@
-import csv
+import re
 
-with open("name.csv", 'w') as file:
-    writer = csv.writer(file)
-    writer.writerow(['1', '2'])
+email = 'qwera'
+
+isValid = re.search('.+@.+..+', email)
+
+if isValid:
+    print(1)
