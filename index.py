@@ -1,10 +1,9 @@
 import re
 
-email = '1111'
+name = "Vladimir Demonov"
 
-isValid = re.search(r"^1{0,3}$", email)
+regex = re.search("(\w+) (\w+)", name)
 
-if isValid:
-    print(1)
-else:
-    print(2)
+firstname, lastname = regex.groups()
+
+print(firstname, lastname)
