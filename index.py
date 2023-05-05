@@ -1,8 +1,8 @@
 import re
 
-email = 'aaaaab'
+email = '1111'
 
-isValid = re.search(r"[^a]+[b]", email)
+isValid = re.search(r"^1{0,3}$", email)
 
 if isValid:
     print(1)
