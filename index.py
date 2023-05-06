@@ -1,9 +1,9 @@
-def get_student():
-    name = input('name: ')
-    house = input('house: ')
-    return name, house
+class Student:
+    def __init__(self, name, house) -> None:
+        self.name = name
+        self.house = house
 
 
-name, house = get_student()
+student = Student('Vladimir', 'Taganrog')
 
-print(name, house)
+print(student.name)
