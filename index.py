@@ -1,5 +1,9 @@
-hello = 'hello world'
+def get_student():
+    name = input('name: ')
+    house = input('house: ')
+    return name, house
 
-goodbye = hello.replace('hello', 'goodbye')
 
-print(goodbye)
+name, house = get_student()
+
+print(name, house)
