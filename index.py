@@ -4,6 +4,5 @@ students = [
     {"name": 'Roma', 'rate': 7}
 ]
 
-universum = [{student["name"]: "Universum"} for student in students]
-
-print(universum)
+for i, student in enumerate(students):
+    print(i, ' ', student["name"])
