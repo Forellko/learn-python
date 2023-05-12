@@ -1,25 +1,8 @@
-class Student:
-    def __init__(self, name, house, ) -> None:
-        self.name = name
-        self.house = house
+def func(a,b,c):
+    return a + b + c
 
-    @property
-    def name(self):
-        print(1)
-        return self._name
+arr = [1,2,3]
 
-    @name.setter
-    def name(self, name):
-        print(2)
-        self._name = name
+result = func(*arr)
 
-    @classmethod
-    def get(cls):
-        return cls()
-
-
-student = Student('Vladimir', 'Taganrog')
-
-student.name = 'Sasha'
-
-print(student.name)
+print(result)
