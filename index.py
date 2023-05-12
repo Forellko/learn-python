@@ -1,9 +1,5 @@
-def func(*args):
-    return args
+arr = ['Hello', 'World']
 
-obj = {'a': 1, 'b': 2, 'c': 3}
-arr = [1,2,3]
+uppercased = map(str.upper, arr)
 
-result = func(1, 2, 3)
-
-print(result)
+print(*uppercased)
