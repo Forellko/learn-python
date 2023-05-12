@@ -4,6 +4,6 @@ students = [
     {"name": 'Roma', 'rate': 7}
 ]
 
-universum = {student["name"]: "Universum" for student in students}
+universum = [{student["name"]: "Universum"} for student in students]
 
 print(universum)
