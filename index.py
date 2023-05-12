@@ -1,8 +1,4 @@
-students = [
-    {"name": 'Vladimir', "rate": 5},
-    {"name": 'Sasha', "rate": 6},
-    {"name": 'Roma', 'rate': 7}
-]
-
-for i, student in enumerate(students):
-    print(i, ' ', student["name"])
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("Hello world")
+engine.runAndWait()
