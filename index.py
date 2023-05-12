@@ -1,5 +1,9 @@
-arr = ['Hello', 'World']
+students = [
+    {"name": 'Vladimir', "rate": 5},
+    {"name": 'Sasha', "rate": 6},
+    {"name": 'Roma', 'rate': 7}
+]
 
-uppercased = [word.upper() for word in arr]
+rate6 = [student['name'] for student in students if student['rate'] == 6]
 
-print(*uppercased)
+print(rate6)
