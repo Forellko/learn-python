@@ -4,6 +4,6 @@ students = [
     {"name": 'Roma', 'rate': 7}
 ]
 
-rate6 = [student['name'] for student in students if student['rate'] == 6]
+ratemt5 = filter(lambda student: student["rate"] > 5, students)
 
-print(rate6)
+print(*ratemt5)
