@@ -1,5 +1,5 @@
 arr = ['Hello', 'World']
 
-uppercased = map(str.upper, arr)
+uppercased = [word.upper() for word in arr]
 
 print(*uppercased)
