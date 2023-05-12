@@ -1,8 +1,9 @@
-def func(a,b,c):
-    return a + b + c
+def func(*args):
+    return args
 
-arr = {'a': 1, 'b': 2, 'c': 3}
+obj = {'a': 1, 'b': 2, 'c': 3}
+arr = [1,2,3]
 
-result = func(**arr)
+result = func(1, 2, 3)
 
 print(result)
