@@ -5,5 +5,6 @@ students = [
 ]
 
 ratemt5 = filter(lambda student: student["rate"] > 5, students)
+ratemt5 = sorted(ratemt5, key=lambda student: student["name"])
 
 print(*ratemt5)
